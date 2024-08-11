@@ -145,15 +145,14 @@ body {
     height: 56px;
     padding: 16px 24px 16px 24px;
     border-radius: 12px;
-    /* background: #F3F4F6; */
-    background-color: red;
+    background: #F3F4F6; 
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
 
 }
-#password-frame{
+.password-frame{
     width: 640px;
     height: 56px;
     border-radius: 12px;
@@ -165,6 +164,12 @@ body {
 }
 #watch-toggle{
     position: absolute;
-    right: 200px;
+    right: 24px;
     cursor: pointer;
+}
+#watch-toggle-check{
+    position: absolute;
+    right: 24px;
+    cursor: pointer;
+
 }
